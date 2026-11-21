@@ -1,0 +1,28 @@
+# OS & IDE
+.DS_Store
+.idea/
+*.iml
+.vscode/
+
+# Backend
+backend/target/
+backend/*.log
+backend/uploads/assets/*
+!backend/uploads/assets/.gitkeep
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+frontend/*.log
+
+# Secrets & environment files
+.env
+.env.*
+!.env.example
+
+# Backend configuration containing local secrets
+backend/src/main/resources/application-local.properties
+backend/src/main/resources/application-local.yml
+
+backend/src/main/resources/application.properties
